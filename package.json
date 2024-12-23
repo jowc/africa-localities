@@ -1,0 +1,27 @@
+{
+  "name": "africa-localities",
+  "version": "1.0.0",
+  "description": "A simple express JS server to get African countries localities.",
+  "keywords": [
+    "africa",
+    "localities"
+  ],
+  "homepage": "https://github.com/jowc/africa-localities#readme",
+  "bugs": {
+    "url": "https://github.com/jowc/africa-localities/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jowc/africa-localities.git"
+  },
+  "license": "MIT",
+  "author": "Joseph Chikeme",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
