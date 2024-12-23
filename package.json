@@ -1,0 +1,46 @@
+{
+  "name": "africa-localities",
+  "version": "1.0.0",
+  "description": "A simple express JS server to get African countries localities.",
+  "keywords": [
+    "africa localities",
+    "africa places",
+    "africa cities",
+    "africa states",
+    "africa countries",
+    "nigeria states",
+    "nigeria cities"
+  ],
+  "homepage": "https://github.com/jowc/africa-localities#readme",
+  "bugs": {
+    "url": "https://github.com/jowc/africa-localities/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jowc/africa-localities.git"
+  },
+  "license": "MIT",
+  "author": "Joseph Chikeme",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "nodemon -r tsconfig-paths/register src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "concurrently": "^9.1.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.7.2"
+  }
+}
