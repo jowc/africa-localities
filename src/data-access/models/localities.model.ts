@@ -12,5 +12,6 @@ export interface LocalitiesInterface {
   isCountry: boolean
   isState: boolean
   isCity: boolean
+  alias: string[]
   children: LocalitiesInterface[]
 }
