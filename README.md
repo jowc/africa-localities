@@ -41,7 +41,7 @@ This project is an open-source application built using [Express.js](https://expr
      ```env
      PORT=3000
      ```
-
+     
 ## How to add to or see localities
 - navigate to data-access -> store -> localities.store.ts
 
