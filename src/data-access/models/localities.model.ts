@@ -14,4 +14,4 @@ export interface LocalitiesInterface {
   isCity: boolean
   alias: string[]
   children: LocalitiesInterface[]
-}
+};
