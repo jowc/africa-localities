@@ -135,4 +135,4 @@ export const localitiesStore: LocalitiesInterface[] = [
       },
     ],
   },
-]
+];
