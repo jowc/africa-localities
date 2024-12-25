@@ -133,6 +133,17 @@ export const localitiesStore: LocalitiesInterface[] = [
         children: [],
         alias: [],
       },
+      {
+        name: "benue",
+        zipCode: "970001",
+        latitude: 8.727077,
+        longitude: 7.393378,
+        isCountry: false,
+        isState: true,
+        isCity: false,
+        alias: [],
+        children: [],
+      },
     ],
   },
 ];
