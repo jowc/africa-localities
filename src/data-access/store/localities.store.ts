@@ -17,7 +17,7 @@ export const localitiesStore: LocalitiesInterface[] = [
         longitude: 3.3792,
         isCountry: false,
         isState: true,
-        isCity: true,
+        isCity: false,
         children: [],
       },
       {
