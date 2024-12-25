@@ -9,6 +9,7 @@ export const localitiesStore: LocalitiesInterface[] = [
     isCountry: true,
     isState: false,
     isCity: false,
+    alias: [],
     children: [
       {
         name: "lagos",
@@ -19,6 +20,7 @@ export const localitiesStore: LocalitiesInterface[] = [
         isState: true,
         isCity: false,
         children: [],
+        alias: [],
       },
       {
         name: "abuja",
@@ -38,6 +40,7 @@ export const localitiesStore: LocalitiesInterface[] = [
             isState: false,
             isCity: true,
             children: [],
+            alias: [],
           },
           {
             name: "wuse",
@@ -48,6 +51,7 @@ export const localitiesStore: LocalitiesInterface[] = [
             isState: false,
             isCity: true,
             children: [],
+            alias: [],
           },
           {
             name: "asokoro",
@@ -58,6 +62,7 @@ export const localitiesStore: LocalitiesInterface[] = [
             isState: false,
             isCity: true,
             children: [],
+            alias: [],
           },
           {
             name: "karu",
@@ -68,6 +73,7 @@ export const localitiesStore: LocalitiesInterface[] = [
             isState: false,
             isCity: true,
             children: [],
+            alias: [],
           },
           {
             name: "nyanya",
@@ -78,6 +84,7 @@ export const localitiesStore: LocalitiesInterface[] = [
             isState: false,
             isCity: true,
             children: [],
+            alias: [],
           },
           {
             name: "katampe",
@@ -88,6 +95,7 @@ export const localitiesStore: LocalitiesInterface[] = [
             isState: false,
             isCity: true,
             children: [],
+            alias: [],
           },
           {
             name: "gwagwalada",
@@ -98,8 +106,10 @@ export const localitiesStore: LocalitiesInterface[] = [
             isState: false,
             isCity: true,
             children: [],
+            alias: [],
           },
         ],
+        alias: [],
       },
       {
         name: "kano",
@@ -110,6 +120,7 @@ export const localitiesStore: LocalitiesInterface[] = [
         isState: true,
         isCity: false,
         children: [],
+        alias: [],
       },
       {
         name: "anambra",
@@ -120,7 +131,19 @@ export const localitiesStore: LocalitiesInterface[] = [
         isState: true,
         isCity: false,
         children: [],
+        alias: [],
+      },
+      {
+        name: "benue",
+        zipCode: "970001",
+        latitude: 8.727077,
+        longitude: 7.393378,
+        isCountry: false,
+        isState: true,
+        isCity: false,
+        alias: [],
+        children: [],
       },
     ],
   },
-]
+];

@@ -3,5 +3,5 @@ export const ServerResponse = (status = 200, data: any, message?: string) => {
     status,
     data,
     message: message ?? null,
-  }
-}
+  };
+};

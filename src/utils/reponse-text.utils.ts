@@ -1,1 +1,1 @@
-export const FetchedSuccessfully = "retrieved successfully"
+export const FetchedSuccessfully = "retrieved successfully";
