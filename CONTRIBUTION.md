@@ -39,6 +39,12 @@ Thank you for considering contributing to our project! By contributing, you help
 
 ### 6. Test Your Changes
 
+- Run end-to-end test to ensure the project compiles successfully:
+  ```bash
+  npm run dev
+  ```
+- Then check the endpoint provided http://localhost:3000 using tools like Postman, Thunder Client VS code extension, or your browser using a JSON preview extension.
+
 - Run tests to ensure your changes don’t break the existing functionality:
   ```bash
   npm test

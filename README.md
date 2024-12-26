@@ -41,31 +41,29 @@ This project is an open-source application built using [Express.js](https://expr
      ```env
      PORT=3000
      ```
-     
-## How to add to or see localities
-- navigate to data-access -> store -> localities.store.ts
 
 ## How to add to or view localities
-- Navigate to data-access -> store -> localities.store.ts
-- Navigate to data-access -> models -> localities.model.ts
+- Navigate to data-access -> models -> localities.model.ts // view expected structure
+- Navigate to data-access -> store -> localities.store.ts   // update or copy localities for your personal use
     This is what the interface is like and we expect every city to have all the properties except for country and states that may not have a zip code.
 ```bash
-export interface LocalitiesInterface {
-  name: string
-  zipCode: string
-  latitude: number
-  longitude: number
-  isCountry: boolean
-  isState: boolean
-  isCity: boolean
-  children: LocalitiesInterface[]
+export interface LocalityInterface {
+  name: string;
+  zipCode: string; // empty string for country or state
+  latitude: number;
+  longitude: number;
+  isCountry: boolean; // true if locality is country
+  isState: boolean; // true if locality is state
+  isCity: boolean; // true if locality is city
+  alias: string[]; // other legal names for locality. e.g. FCT, Federal Capital Territory
+  children: LocalityInterface[];
 }
 ```
 - Add your locality to the array using the LocalitiesInterface.
 ```bash
 {
     name: "nigeria",
-    zipCode: "", // empty for country
+    zipCode: "", // empty string for country or state
     latitude: 9.082,
     longitude: 8.6753,
     isCountry: true, // set to true if its a country

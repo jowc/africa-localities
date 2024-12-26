@@ -1,6 +1,6 @@
-import {LocalitiesInterface} from "../models/localities.model"
+import { LocalityInterface } from "../models/localities.model";
 
-export const localitiesStore: LocalitiesInterface[] = [
+export const localitiesStore: LocalityInterface[] = [
   {
     name: "nigeria",
     zipCode: "",
