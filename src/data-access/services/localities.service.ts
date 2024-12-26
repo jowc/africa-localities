@@ -1,18 +1,18 @@
 import {FetchedSuccessfully} from "@utils/reponse-text.utils"
 import {
-  LocalitiesInterface,
+  LocalityInterface,
   LocalityRegionEnum,
-} from "../models/localities.model"
-import {localitiesStore} from "../store/localities.store"
-import {ServerResponse} from "@utils/localities.utils"
+} from "../models/localities.model";
+import { localitiesStore } from "../store/localities.store";
+import { ServerResponse } from "@utils/localities.utils";
 
 export const getAllLocalities = () => {
-  const sortByName = (a: LocalitiesInterface, b: LocalitiesInterface) =>
+  const sortByName = (a: LocalityInterface, b: LocalityInterface) =>
     a.name.localeCompare(b.name);
 
   const sortLocalities = (
-    localities: LocalitiesInterface[],
-  ): LocalitiesInterface[] =>
+    localities: LocalityInterface[],
+  ): LocalityInterface[] =>
     localities.map((locality) => ({
       ...locality,
       children: locality.children
@@ -20,7 +20,7 @@ export const getAllLocalities = () => {
         : [],
     }));
 
-  const sortedLocalities: LocalitiesInterface[] = sortLocalities(
+  const sortedLocalities: LocalityInterface[] = sortLocalities(
     localitiesStore.sort(sortByName),
   );
 
