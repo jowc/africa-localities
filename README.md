@@ -106,7 +106,7 @@ export interface LocalityInterface {
 ```
 
 ## How to add to or view localities
-- Navigate to data-access -> store -> localities.store.ts
+- Navigate to data-access -> store -> localities.store.ts (in-memory array storage)
 - Navigate to data-access -> models -> localities.model.ts
     This is what the interface is like and we expect every city to have all the properties except for country and states that may not have a zip code.
 ```bash
@@ -229,6 +229,8 @@ We welcome contributions! Please follow these steps:
    git push origin feature/your-feature-name
    ```
 5. Open a pull request on GitHub.
+
+Check the CONTRIBUTION.md for more information.
 
 ## License
 
