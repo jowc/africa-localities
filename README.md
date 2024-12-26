@@ -59,7 +59,7 @@ export interface LocalityInterface {
   children: LocalityInterface[];
 }
 ```
-- Add your locality to the array using the LocalitiesInterface.
+- Add your locality to the array using the LocalityInterface.
 ```bash
 {
     name: "nigeria",
@@ -110,7 +110,7 @@ export interface LocalityInterface {
 - Navigate to data-access -> models -> localities.model.ts
     This is what the interface is like and we expect every city to have all the properties except for country and states that may not have a zip code.
 ```bash
-export interface LocalitiesInterface {
+export interface LocalityInterface {
   name: string
   zipCode: string
   latitude: number
@@ -118,10 +118,10 @@ export interface LocalitiesInterface {
   isCountry: boolean
   isState: boolean
   isCity: boolean
-  children: LocalitiesInterface[]
+  children: LocalityInterface[]
 }
 ```
-- Add your locality to the array using the LocalitiesInterface.
+- Add your locality to the array using the LocalityInterface.
 ```bash
 {
     name: "nigeria",
