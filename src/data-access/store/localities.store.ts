@@ -177,6 +177,17 @@ export const localitiesStore: LocalityInterface[] = [
         alias: [],
         children: [],
       },
+      {
+        name: "enugu",
+        zipCode: "400102",
+        latitude: 6.4499833, 
+        longitude:  7.5000007,
+        isCountry: false,
+        isState: true,
+        isCity: false,
+        alias: [],
+        children: [],
+      },
     ],
   },
 ];
