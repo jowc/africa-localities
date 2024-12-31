@@ -189,6 +189,17 @@ export const localitiesStore: LocalityInterface[] = [
         children: [],
       },
       {
+        name: "cross river",
+        zipCode: "550101",
+        latitude: 5.8671966, 
+        longitude:  8.5204774,
+        isCountry: false,
+        isState: true,
+        isCity: false,
+        alias: [],
+        children: [],
+      },
+      {
         name: "Akwa Ibom",
         zipCode: "520101",
         latitude: 4.990237,
