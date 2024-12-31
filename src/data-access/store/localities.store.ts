@@ -188,6 +188,17 @@ export const localitiesStore: LocalityInterface[] = [
         alias: [],
         children: [],
       },
+      {
+        name: "Akwa Ibom",
+        zipCode: "520101",
+        latitude: 4.990237,
+        longitude: 7.9974399,
+        isCountry:false,
+        isState:true,
+        isCity:false,
+        alias:[],
+        children:[]
+      },
     ],
   },
 ];
