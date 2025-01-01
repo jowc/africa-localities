@@ -200,10 +200,21 @@ export const localitiesStore: LocalityInterface[] = [
         children: [],
       },
       {
-        name: "Akwa Ibom",
+        name: "akwa ibom",
         zipCode: "520101",
         latitude: 4.990237,
         longitude: 7.9974399,
+        isCountry:false,
+        isState:true,
+        isCity:false,
+        alias:[],
+        children:[]
+      },
+      {
+        name: "bayelsa",
+        zipCode: "562101",
+        latitude: 4.7629786,
+        longitude: 6.028898,
         isCountry:false,
         isState:true,
         isCity:false,
