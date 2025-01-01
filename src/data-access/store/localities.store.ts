@@ -210,6 +210,17 @@ export const localitiesStore: LocalityInterface[] = [
         alias:[],
         children:[]
       },
+      {
+        name: "delta",
+        zipCode: "320110",
+        latitude: 5.5273061,
+        longitude: 6.1784167,
+        isCountry:false,
+        isState:true,
+        isCity:false,
+        alias:[],
+        children:[]
+      },
     ],
   },
 ];
