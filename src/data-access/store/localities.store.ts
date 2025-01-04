@@ -232,6 +232,17 @@ export const localitiesStore: LocalityInterface[] = [
         alias: [],
         children: [],
       },
+      {
+        name: "ondo",
+        zipCode: "340001",
+        latitude: 7.0209686,
+        longitude: 5.0567477,
+        isCountry: false,
+        isState: true,
+        isCity: false,
+        alias: [],
+        children: [],
+      },
     ],
   },
 ];
