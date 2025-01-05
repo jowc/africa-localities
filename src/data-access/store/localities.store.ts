@@ -254,6 +254,17 @@ export const localitiesStore: LocalityInterface[] = [
         alias: [],
         children: [],
       },
+      {
+        name: "ekiti",
+        zipCode: "360101",
+        latitude: 7.736891,
+        longitude: 5.2738326,
+        isCountry: false,
+        isState: true,
+        isCity: false,
+        alias: [],
+        children: [],
+      },
     ],
   },
 ];
