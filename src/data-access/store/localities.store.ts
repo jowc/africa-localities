@@ -243,6 +243,17 @@ export const localitiesStore: LocalityInterface[] = [
         alias: [],
         children: [],
       },
+      {
+        name: "edo",
+        zipCode: "310101",
+        latitude: 6.6076575,
+        longitude: 5.9722713,
+        isCountry: false,
+        isState: true,
+        isCity: false,
+        alias: [],
+        children: [],
+      },
     ],
   },
 ];
