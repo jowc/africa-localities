@@ -265,6 +265,17 @@ export const localitiesStore: LocalityInterface[] = [
         alias: [],
         children: [],
       },
+      {
+        name: "ogun",
+        zipCode: "110001",
+        latitude: 6.9788582,
+        longitude: 3.4389293,
+        isCountry: false,
+        isState: true,
+        isCity: false,
+        alias: [],
+        children: [],
+      },
     ],
   },
 ];
