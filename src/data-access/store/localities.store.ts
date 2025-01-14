@@ -287,6 +287,17 @@ export const localitiesStore: LocalityInterface[] = [
         alias: [],
         children: [],
       },
+      {
+        name: "oyo",
+        zipCode: "211105",
+        latitude: 8.2151249,
+        longitude: 3.5642897,
+        isCountry: false,
+        isState: true,
+        isCity: false,
+        alias: [],
+        children: [],
+      },
     ],
   },
 ];
