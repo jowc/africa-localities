@@ -287,6 +287,17 @@ export const localitiesStore: LocalityInterface[] = [
         alias: [],
         children: [],
       },
+      {
+        name: "adamawa",
+        zipCode: "652109",
+        latitude: 7.5484047,
+        longitude: 4.4978307,
+        isCountry: false,
+        isState: true,
+        isCity: false,
+        alias: [],
+        children: [],
+      },
     ],
   },
 ];
