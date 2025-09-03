@@ -1,4 +1,4 @@
-export const ServerResponse = (status = 200, data: any, message?: string) => {
+export const ServerResponse = <T> (status = 200, data: T, message?: string) => {
   return {
     status,
     data,

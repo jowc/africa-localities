@@ -1,8 +1,5 @@
-import {FetchedSuccessfully} from "@utils/reponse-text.utils"
-import {
-  LocalityInterface,
-  LocalityRegionEnum,
-} from "../models/localities.model";
+import { FetchedSuccessfully } from "@utils/reponse-text.utils";
+import { LocalityInterface } from "../models/localities.model";
 import { localitiesStore } from "../store/localities.store";
 import { ServerResponse } from "@utils/localities.utils";
 
@@ -25,10 +22,39 @@ export const getAllLocalities = () => {
   );
 
   return ServerResponse(200, sortedLocalities, FetchedSuccessfully);
+
+}
+
+// Recursively search the localities tree for a matching name or alias
+const findLocality = (
+  nodes: LocalityInterface[],
+  query: string
+): LocalityInterface | null => {
+  for (const node of nodes) {
+    const nameMatch = node.name.toLowerCase() === query;
+    const aliasMatch = Array.isArray(node.alias)
+      && node.alias.some((a) => a.toLowerCase() === query);
+
+    if (nameMatch || aliasMatch) return node;
+
+    if (node.children && node.children.length) {
+      const child = findLocality(node.children, query);
+      if (child) return child; // return the exact child match
+    }
+  }
+  return null;
 };
 
-export const getLocality = async (name: string, region: LocalityRegionEnum) => {
-  return await localitiesStore.find((locality) => {
-    return locality.name === name && locality[region];
-  });
+export const getLocality = (name: string) => {
+  const query = name.trim().toLowerCase();
+  const all = getAllLocalities().data as LocalityInterface[];
+
+  const match = findLocality(all, query);
+
+  if (!match) {
+    return ServerResponse(404, [], FetchedSuccessfully);
+  }
+
+  // Return the exact matched node (parent or child) with its own children as-is
+  return ServerResponse(200, match, FetchedSuccessfully);
 };
