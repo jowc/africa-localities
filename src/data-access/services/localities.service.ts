@@ -1,7 +1,7 @@
-import { FetchedSuccessfully } from "@utils/reponse-text.utils";
-import { LocalityInterface } from "../models/localities.model";
-import { localitiesStore } from "../store/localities.store";
-import { ServerResponse } from "@utils/localities.utils";
+import { FetchedSuccessfully } from "@utils/reponse-text.utils.js";
+import { LocalityInterface } from "../models/localities.model.js";
+import { localitiesStore } from "../store/localities.store.js";
+import { ServerResponse } from "@utils/localities.utils.js";
 
 export const getAllLocalities = () => {
   const sortByName = (a: LocalityInterface, b: LocalityInterface) =>
@@ -22,18 +22,18 @@ export const getAllLocalities = () => {
   );
 
   return ServerResponse(200, sortedLocalities, FetchedSuccessfully);
-
-}
+};
 
 // Recursively search the localities tree for a matching name or alias
 const findLocality = (
   nodes: LocalityInterface[],
-  query: string
+  query: string,
 ): LocalityInterface | null => {
   for (const node of nodes) {
     const nameMatch = node.name.toLowerCase() === query;
-    const aliasMatch = Array.isArray(node.alias)
-      && node.alias.some((a) => a.toLowerCase() === query);
+    const aliasMatch =
+      Array.isArray(node.alias) &&
+      node.alias.some((a) => a.toLowerCase() === query);
 
     if (nameMatch || aliasMatch) return node;
 

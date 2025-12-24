@@ -1,4 +1,4 @@
-import { LocalityInterface } from "../models/localities.model";
+import { LocalityInterface } from "../models/localities.model.js";
 
 export const localitiesStore: LocalityInterface[] = [
   {
@@ -426,7 +426,7 @@ export const localitiesStore: LocalityInterface[] = [
             name: "ibadan",
             zipCode: "200001",
             latitude: 7.3775,
-            longitude: 3.9470,
+            longitude: 3.947,
             isCountry: false,
             isState: false,
             isCity: true,
@@ -460,7 +460,7 @@ export const localitiesStore: LocalityInterface[] = [
             name: "zaria",
             zipCode: "810001",
             latitude: 11.0667,
-            longitude: 7.7000,
+            longitude: 7.7,
             isCountry: false,
             isState: false,
             isCity: true,
@@ -471,7 +471,7 @@ export const localitiesStore: LocalityInterface[] = [
             name: "kaduna north",
             zipCode: "800001",
             latitude: 10.5236,
-            longitude: 7.4390,
+            longitude: 7.439,
             isCountry: false,
             isState: false,
             isCity: true,
@@ -539,7 +539,7 @@ export const localitiesStore: LocalityInterface[] = [
         name: "kwara",
         zipCode: "240001",
         latitude: 8.9669,
-        longitude: 4.3800,
+        longitude: 4.38,
         isCountry: false,
         isState: true,
         isCity: false,
@@ -571,7 +571,7 @@ export const localitiesStore: LocalityInterface[] = [
             name: "gwale",
             zipCode: "950001",
             latitude: 8.5167,
-            longitude: 8.3500,
+            longitude: 8.35,
             isCountry: false,
             isState: false,
             isCity: true,
@@ -584,7 +584,7 @@ export const localitiesStore: LocalityInterface[] = [
         name: "borno",
         zipCode: "600001",
         latitude: 11.8333,
-        longitude: 13.1500,
+        longitude: 13.15,
         isCountry: false,
         isState: true,
         isCity: false,

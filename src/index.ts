@@ -1,6 +1,6 @@
 import express, {Express, Request, Response} from "express"
 import dotenv from "dotenv"
-import {getAllLocalities, getLocality} from "@services/localities.service"
+import { getAllLocalities, getLocality } from "@services/localities.service.js";
 
 dotenv.config();
 
