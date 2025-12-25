@@ -86,6 +86,7 @@ export const localitiesStore: LocalityInterface[] = [
         isCountry: false,
         isState: true,
         isCity: false,
+        alias: ["fct", "federal capital territory"],
         children: [
           {
             name: "gwarinpa",
@@ -165,7 +166,6 @@ export const localitiesStore: LocalityInterface[] = [
             alias: [],
           },
         ],
-        alias: [],
       },
       {
         name: "kano",
@@ -669,21 +669,10 @@ export const localitiesStore: LocalityInterface[] = [
         children: [],
       },
       {
-        name: "osun",
-        zipCode: "230232",
-        latitude: 7.5484047,
-        longitude: 4.4978307,
-        isCountry: false,
-        isState: true,
-        isCity: false,
-        alias: [],
-        children: [],
-      },
-      {
-        name: "adamawa",
-        zipCode: "652109",
-        latitude: 7.5484047,
-        longitude: 4.4978307,
+        name: "ebonyi",
+        zipCode: "490001",
+        latitude: 6.2649,
+        longitude: 8.0137,
         isCountry: false,
         isState: true,
         isCity: false,
