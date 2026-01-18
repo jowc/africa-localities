@@ -13,7 +13,7 @@ export const localitiesStore: LocalityInterface[] = [
     children: [
       {
         name: "lagos",
-        zipCode: "",
+        zipCode: "100001",
         latitude: 6.5244,
         longitude: 3.3792,
         isCountry: false,
@@ -80,7 +80,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "abuja",
-        zipCode: "",
+        zipCode: "900001",
         latitude: 9.0579,
         longitude: 7.4951,
         isCountry: false,
@@ -169,7 +169,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "kano",
-        zipCode: "",
+        zipCode: "700001",
         latitude: 12.0022,
         longitude: 8.592,
         isCountry: false,
@@ -180,7 +180,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "anambra",
-        zipCode: "",
+        zipCode: "420001",
         latitude: 6.2209,
         longitude: 6.937,
         isCountry: false,
