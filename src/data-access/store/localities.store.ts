@@ -3,7 +3,7 @@ import { LocalityInterface } from "../models/localities.model.js";
 export const localitiesStore: LocalityInterface[] = [
   {
     name: "nigeria",
-    zipCode: "",
+    zipCode: "100001",
     latitude: 9.082,
     longitude: 8.6753,
     isCountry: true,
@@ -13,7 +13,7 @@ export const localitiesStore: LocalityInterface[] = [
     children: [
       {
         name: "lagos",
-        zipCode: "",
+        zipCode: "100001",
         latitude: 6.5244,
         longitude: 3.3792,
         isCountry: false,
@@ -80,7 +80,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "abuja",
-        zipCode: "",
+        zipCode: "900001",
         latitude: 9.0579,
         longitude: 7.4951,
         isCountry: false,
@@ -169,7 +169,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "kano",
-        zipCode: "",
+        zipCode: "700001",
         latitude: 12.0022,
         longitude: 8.592,
         isCountry: false,
@@ -180,7 +180,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "anambra",
-        zipCode: "",
+        zipCode: "420001",
         latitude: 6.2209,
         longitude: 6.937,
         isCountry: false,
@@ -683,7 +683,7 @@ export const localitiesStore: LocalityInterface[] = [
   },
   {
     name: "south africa",
-    zipCode: "",
+    zipCode: "0001",
     latitude: -30.5595,
     longitude: 22.9375,
     isCountry: true,
@@ -693,7 +693,7 @@ export const localitiesStore: LocalityInterface[] = [
     children: [
       {
         name: "gauteng",
-        zipCode: "",
+        zipCode: "2000",
         latitude: -26.2708,
         longitude: 28.1123,
         isCountry: false,
@@ -738,7 +738,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "western cape",
-        zipCode: "",
+        zipCode: "8001",
         latitude: -33.2277,
         longitude: 21.8569,
         isCountry: false,
@@ -761,7 +761,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "kwazulu-natal",
-        zipCode: "",
+        zipCode: "4001",
         latitude: -28.5305,
         longitude: 30.8958,
         isCountry: false,
@@ -786,7 +786,7 @@ export const localitiesStore: LocalityInterface[] = [
   },
   {
     name: "kenya",
-    zipCode: "",
+    zipCode: "00100",
     latitude: -0.0236,
     longitude: 37.9062,
     isCountry: true,
@@ -796,7 +796,7 @@ export const localitiesStore: LocalityInterface[] = [
     children: [
       {
         name: "nairobi",
-        zipCode: "",
+        zipCode: "00100",
         latitude: -1.2864,
         longitude: 36.8172,
         isCountry: false,
@@ -819,7 +819,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "mombasa",
-        zipCode: "",
+        zipCode: "80100",
         latitude: -4.0435,
         longitude: 39.6682,
         isCountry: false,
@@ -842,7 +842,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "kisumu",
-        zipCode: "",
+        zipCode: "40100",
         latitude: -0.0917,
         longitude: 34.7680,
         isCountry: false,
@@ -867,7 +867,7 @@ export const localitiesStore: LocalityInterface[] = [
   },
   {
     name: "ghana",
-    zipCode: "",
+    zipCode: "GA-001",
     latitude: 7.9465,
     longitude: -1.0232,
     isCountry: true,
@@ -877,7 +877,7 @@ export const localitiesStore: LocalityInterface[] = [
     children: [
       {
         name: "greater accra",
-        zipCode: "",
+        zipCode: "GA-001",
         latitude: 5.6037,
         longitude: -0.1870,
         isCountry: false,
@@ -911,7 +911,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "ashanti",
-        zipCode: "",
+        zipCode: "AK-039",
         latitude: 6.7467,
         longitude: -1.5246,
         isCountry: false,
@@ -934,7 +934,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "western",
-        zipCode: "",
+        zipCode: "WS-023",
         latitude: 5.1134,
         longitude: -2.1006,
         isCountry: false,
@@ -959,7 +959,7 @@ export const localitiesStore: LocalityInterface[] = [
   },
   {
     name: "egypt",
-    zipCode: "",
+    zipCode: "11511",
     latitude: 26.8206,
     longitude: 30.8025,
     isCountry: true,
@@ -969,7 +969,7 @@ export const localitiesStore: LocalityInterface[] = [
     children: [
       {
         name: "cairo",
-        zipCode: "",
+        zipCode: "11511",
         latitude: 30.0444,
         longitude: 31.2357,
         isCountry: false,
@@ -992,7 +992,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "alexandria",
-        zipCode: "",
+        zipCode: "21500",
         latitude: 31.2001,
         longitude: 29.9187,
         isCountry: false,
@@ -1015,7 +1015,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "giza",
-        zipCode: "",
+        zipCode: "12111",
         latitude: 30.0131,
         longitude: 31.2089,
         isCountry: false,
@@ -1040,7 +1040,7 @@ export const localitiesStore: LocalityInterface[] = [
   },
   {
     name: "ethiopia",
-    zipCode: "",
+    zipCode: "1000",
     latitude: 9.1450,
     longitude: 40.4897,
     isCountry: true,
@@ -1050,7 +1050,7 @@ export const localitiesStore: LocalityInterface[] = [
     children: [
       {
         name: "addis ababa",
-        zipCode: "",
+        zipCode: "1000",
         latitude: 9.0320,
         longitude: 38.7469,
         isCountry: false,
@@ -1073,7 +1073,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "oromia",
-        zipCode: "",
+        zipCode: "1100",
         latitude: 8.5400,
         longitude: 39.2700,
         isCountry: false,
@@ -1096,7 +1096,7 @@ export const localitiesStore: LocalityInterface[] = [
       },
       {
         name: "amhara",
-        zipCode: "",
+        zipCode: "2000",
         latitude: 11.5900,
         longitude: 37.3900,
         isCountry: false,
